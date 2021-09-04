@@ -27,3 +27,12 @@ figcaption{
   color: var(--blueberry);
   border-radius: var(--rounded);
 }
+@media (max-width: 30em) {
+  figure{
+    margin: 1em -1.5em;
+  }
+  figcaption{
+    margin: 0.5em;
+    padding: 0.5em;s
+  }
+}
