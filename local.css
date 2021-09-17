@@ -28,6 +28,9 @@ figcaption{
   border-radius: var(--rounded);
 }
 @media (max-width: 30em) {
+  html{
+    overflow-x: hidden;
+  }
   figure{
     margin: 1em -1.5em;
   }
