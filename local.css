@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 body > header{
   background-image:none;
   margin: 6rem 0 2rem 0;
