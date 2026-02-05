@@ -13,11 +13,31 @@ body > header h1{
   font-weight: bold;
   margin-bottom: 0.5em;
 }
+main > section > h2:first-of-type{
+  font-weight: bold;
+  color: var(--blueberry);
+  background-color: var(--turquoise);
+  margin: 0;
+  padding-left: 0;
+}
+main > section > h2:first-of-type::before, main > section > h2:first-of-type::after{
+  background-color: var(--turquoise);
+  box-shadow: 0 calc(-1*var(--rounded))0 0 var(--turquoise);
+}
 main > section h3{
   font-size: 1.2em;
   font-weight: bold;
+  margin-top: 2.5em;
   margin-bottom: 0.5em;
 }
+main > section h4{
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+
+
 figure{
   position:relative;
 }
